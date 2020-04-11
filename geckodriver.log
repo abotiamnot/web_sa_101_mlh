@@ -33,3 +33,14 @@ JavaScript error: , line 0: NotAllowedError: The play method is not allowed by t
 [Parent 8034, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-HwDgAI/firefox-71.0+linuxmint2+tricia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1586600739695	Marionette	INFO	Stopped listening on port 34235
+1586604549131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqG6oaA"
+1586604549694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586604549694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586604549695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586604549695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586604551687	Marionette	INFO	Listening on port 36423
+1586604551761	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[Child 11488, Chrome_ChildThread] WARNING: pipe error (38): Connection reset by peer: file /build/firefox-HwDgAI/firefox-71.0+linuxmint2+tricia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
